@@ -38,7 +38,7 @@ powershell -ep bypass
  ```
 
 
-
+commands
 ```bash
 Get-NetComputers
 #This command shows all the computers with a current session
