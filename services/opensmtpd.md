@@ -4,13 +4,6 @@
 
 v6.6.1 | v6.6.2
 
-
-```
-
-
-https://github.com/jopraveen/CVE-2020-7247
-```
-
 Make sure to use on an open port
 
 ```bash
