@@ -23,5 +23,17 @@ net user <username> /domain
 ```
 
 
+### PowerView.ps1
+
+```bash
+Get-NetComputers
+#This command shows all the computers with a current session
+
+
+Get-NetLoggedon -ComputerName <name of computer form previous command>
+# Use this command to view users who have active sessions on the device discovered
+
+Get-NetUser -SPN
+#Enumeration of service accounts
 
 
