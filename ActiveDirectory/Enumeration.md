@@ -27,6 +27,18 @@ net user <username> /domain
 
 * [PowerView.ps1](https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1)
 
+installation/setup
+```bash
+powershell
+powershell -ep bypass
+. .\powerview.ps1
+ 
+ #might need to turn off realtime monitoring
+ Set-MpPreference -DisableRealtimeMonitoring $true
+ ```
+
+
+
 ```bash
 Get-NetComputers
 #This command shows all the computers with a current session
