@@ -4,4 +4,5 @@ Assuming that you already have compromised a workstation on a domain I will go t
 '''
 # shows local accounts 
 net users
+
 '''
