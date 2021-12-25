@@ -1,5 +1,5 @@
 Use the user list file created with kerbrute
-
+* [kerbrute](https://github.com/ropnop/kerbrute/releases)
 
 
 ```bash
