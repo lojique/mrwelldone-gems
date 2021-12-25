@@ -22,3 +22,9 @@ Use this to dump hashes and maybe pass them around
 example: secretsdump.py marvel/fcastle:Password1@192.168.16.129
 usage: secretsdump.py domain/username:password@[IP]
 ```
+
+
+cracking sam hashes
+```bash
+john hash.txt --format=NT --wordlist=/path/to/file
+```
