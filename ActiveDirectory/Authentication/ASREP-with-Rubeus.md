@@ -1,0 +1,4 @@
+```bash
+
+Rubeus.exe asreproast
+```
