@@ -12,6 +12,8 @@ Make sure to use on an open port
 
 ```
 
+Change some stuffs in this exploit like RCPT to and something(if needed)
+
 ```bash
 import socket, time
 import sys
