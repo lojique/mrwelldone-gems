@@ -8,7 +8,8 @@ Assuming that you already have compromised a workstation on a domain I will go t
 
 ### net user
 
-This will populate users on the local device
+
 ```bash
 net users
+#This will populate users on the local device
 ```
