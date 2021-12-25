@@ -41,6 +41,10 @@ Get-NetDomainController
 
 Get-DomainPolicy
 #Gets information about the policies like password
+
+
+Get-NetComputer -fulldata | select operatingsystem
+#Gets a list of all operating systems on a domain
 ```
 
 
