@@ -25,6 +25,8 @@ net user <username> /domain
 
 ### PowerView.ps1
 
+* [PowerView.ps1](https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1)
+* 
 ```bash
 Get-NetComputers
 #This command shows all the computers with a current session
