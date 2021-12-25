@@ -1,4 +1,4 @@
-# notes
+# Notes I've compiled over time
 
 
-''' This is the readme file
+
