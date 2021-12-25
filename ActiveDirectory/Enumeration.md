@@ -36,4 +36,11 @@ Get-NetLoggedon -ComputerName <name of computer form previous command>
 Get-NetUser -SPN
 #Enumeration of service accounts
 
+Get-NetDomainController
+#Here we can see information on the DC
+
+Get-DomainPolicy
+#Gets information about the policies like password
+```
+
 
