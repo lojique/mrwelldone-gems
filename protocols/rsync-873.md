@@ -14,6 +14,8 @@ Manual Rsync
 rsync -av --list-only rsync://192.168.0.123/shared_name
 ```
 
-
-
+* And copy all files to your local machine via the following command:
+```bash
+rsync -av rsync://192.168.0.123:8730/shared_name ./rsyn_shared
+```
 
