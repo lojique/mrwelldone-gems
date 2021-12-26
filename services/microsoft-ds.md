@@ -1,4 +1,4 @@
-version Microsoft Windows Server 2008 R2 microsoft-ds
+### version Microsoft Windows Server 2008 R2 microsoft-ds
 
 check what its vulnerable too with this script
 
