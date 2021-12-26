@@ -19,3 +19,28 @@ rsync -av --list-only rsync://192.168.0.123/shared_name
 rsync -av rsync://192.168.0.123:8730/shared_name ./rsyn_shared
 ```
 
+If you can write to the shares follow the next commands
+
+#
+```
+#Create a ssh key
+ssh-keygen -f id_rsa
+```
+
+```
+#create .ssh folder in teh rsyn_shared you downloaded
+mkdir .ssh
+
+#copy the public to the authorized_keys ( you have to create that file)
+cp id_rsa.pub .ssh/authorized_keys
+
+
+#transfer .ssh to target
+rsync -r ./.ssh 192.168.122.126::fox/
+
+#then ssh into user
+ssh -i newkey fox@192.168.85.126
+```
+
+
+
