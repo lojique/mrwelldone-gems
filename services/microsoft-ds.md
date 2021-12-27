@@ -20,7 +20,7 @@ make sure to make the appriprate changes:
 * change the ip address
 * take out the b's
 
-EXAMPLE:
+## EXAMPLE:
 
 ```bash
 
