@@ -50,3 +50,42 @@ Goolge the kernel version and see if there is a exploit for it
 The exploit should include the usage 
 
 
+# Another Example
+
+
+![image](https://user-images.githubusercontent.com/96658935/147587364-ae4ebe97-8ad1-4e73-9d81-82647c30ec07.png)
+
+Step1 - Get the kernel version
+
+
+![image](https://user-images.githubusercontent.com/96658935/147587436-ed6d13f6-804d-455e-bf76-62a70d149e67.png)
+
+Step2 - Google it and find a potential privesc exploit
+
+![image](https://user-images.githubusercontent.com/96658935/147587600-82ff3a93-cae3-495b-9b18-f2c552cbd268.png)
+
+They usually have instructions so follow them.
+
+![image](https://user-images.githubusercontent.com/96658935/147587681-e927492a-24e7-4d88-b148-1003bfcf82b7.png)
+
+Step3 - Download the exploit and host a python server to transfer t over to the other machine
+
+
+![image](https://user-images.githubusercontent.com/96658935/147587853-aa7ecb51-c7cf-49e4-86a1-49e36c92852f.png)
+
+Step4 - Follow the instructions from the exploit
+
+
+![image](https://user-images.githubusercontent.com/96658935/147587880-a3dfd4d3-2db3-4fda-98e5-b068b3ba765f.png)
+
+you can ssh or just su firefart into teh new account
+
+
+
+
+
+
+
+
+
+
