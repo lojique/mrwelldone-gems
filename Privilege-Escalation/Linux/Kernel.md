@@ -25,6 +25,14 @@ cat /proc/version
 #This command will show you kernal info
 ```
 
+[OR]
+
+```bash
+
+uname -a
+```
+
+
 
 ## Exploitation
 
