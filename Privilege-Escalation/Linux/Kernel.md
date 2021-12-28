@@ -5,7 +5,7 @@ The Kernel exploit methodology is simple;
  Run the exploit 
     
     
-    Hints/Notes:
+   ### Hints/Notes:
 
 Being too specific about the kernel version when searching for exploits on Google, Exploit-db, or searchsploit
 Be sure you understand how the exploit code works BEFORE you launch it. Some exploit codes can make changes on the operating system that would make them unsecured in further use or make irreversible changes to the system, creating problems later. Of course, these may not be great concerns within a lab or CTF environment, but these are absolute no-nos during a real penetration testing engagement.
