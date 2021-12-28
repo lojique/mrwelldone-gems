@@ -78,7 +78,7 @@ Step4 - Follow the instructions from the exploit
 
 ![image](https://user-images.githubusercontent.com/96658935/147587880-a3dfd4d3-2db3-4fda-98e5-b068b3ba765f.png)
 
-you can ssh or just su firefart into teh new account
+you can ssh or just su firefart into the new account
 
 
 
