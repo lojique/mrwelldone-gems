@@ -13,6 +13,9 @@ Some exploits may require further interaction once they are run. Read all commen
 You can transfer the exploit code from your machine to the target system using the SimpleHTTPServer Python module and wget respectively. 
     
     
+   ![image](https://user-images.githubusercontent.com/96658935/147586309-0ee97b39-28b5-4bfa-a516-08aa09cb7fdb.png)
+
+    
    # Enumeration
     
   The proc filesystem (procfs) provides information about the target system processes. 
