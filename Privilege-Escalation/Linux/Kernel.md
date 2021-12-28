@@ -33,6 +33,9 @@ Goolge the kernel version and see if there is a exploit for it
 ![image](https://user-images.githubusercontent.com/96658935/147516617-d5188a6a-3a04-4c0b-8de5-966e4c3aaf59.png)
 
 
+![image](https://user-images.githubusercontent.com/96658935/147516878-cda8dfdb-5f18-4c9b-8be8-0a8b349ea023.png)
 
+
+The exploit should include the usage 
 
 
