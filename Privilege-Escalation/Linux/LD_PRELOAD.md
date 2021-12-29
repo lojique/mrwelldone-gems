@@ -33,4 +33,8 @@ gcc -fPIC -shared -o shell.so shell.c -nostartfiles
 
 ![image](https://user-images.githubusercontent.com/96658935/147623630-592e8830-8d78-4622-8b83-17850228b9e2.png)
 
+
+![image](https://user-images.githubusercontent.com/96658935/147623687-68cf5bac-147d-4db2-97ae-bd001bb4de84.png)
+
+
 Now that it's compiled you can run it with one of the sudo-l commands and get root
