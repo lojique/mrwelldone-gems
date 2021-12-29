@@ -11,11 +11,11 @@ void _init() {
 }
 
 ```
-save file as [x].c so it can be compiled.
-This code includes standard io,sys types, and standard libraries.
-Then it unsets the library preload which is LD_PRELOAD.
-Then set setgid and setuid to zero which is root.
-Then the system executes /bin/bash.
+* save file as [x].c so it can be compiled.
+* This code includes standard io,sys types, and standard libraries.
+* Then it unsets the library preload which is LD_PRELOAD.
+* Then set setgid and setuid to zero which is root.
+* Then the system executes /bin/bash.
 
 
 
