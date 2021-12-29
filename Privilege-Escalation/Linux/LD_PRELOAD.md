@@ -24,4 +24,13 @@ void _init() {
 * Then the system executes /bin/bash.
 
 
+```bash
+gcc -fPIC -shared -o shell.so shell.c -nostartfiles
+```
 
+* compile with gcc
+* -fPIC - means regardless where your shell addressing is this is going to function.
+
+![image](https://user-images.githubusercontent.com/96658935/147623630-592e8830-8d78-4622-8b83-17850228b9e2.png)
+
+Now that it's compiled you can run it with one of the sudo-l commands and get root
