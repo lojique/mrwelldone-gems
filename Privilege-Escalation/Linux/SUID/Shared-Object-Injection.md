@@ -34,7 +34,7 @@ I see that I have permissions to wirte to /user/home
 
 ![image](https://user-images.githubusercontent.com/96658935/147665637-a6526c01-2291-4248-8df1-84a49d0b40b1.png)
 
-Wehn the /sr/local/bin/suid-so command is ran its looking for the /home/user/.config/libcalc.so file but it cannot find it. SO because I have writable access to /home/user I'll create that file and put something for my benefit in it.
+When the /usr/local/bin/suid-so command is ran its looking for the /home/user/.config/libcalc.so file but it cannot find it. SO because I have writable access to /home/user I'll create that file and put something for my benefit in it.
 
 
 # Exploitation
@@ -62,7 +62,7 @@ void inject() {
 ![image](https://user-images.githubusercontent.com/96658935/147666042-d9b297b4-f89d-4e1b-ae2b-73e94257e7b2.png)
 
 
-(Save the file as x.c) I placed the code from above in the libcalc.c file
+(SAVE FILE AS x.c) I placed the code from above in the libcalc.c file
 
 now compile the file
 
