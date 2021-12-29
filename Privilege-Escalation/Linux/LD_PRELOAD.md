@@ -1,3 +1,9 @@
+![image](https://user-images.githubusercontent.com/96658935/147622984-7193ceee-663b-4649-b16c-65016f201af4.png)
+
+
+This means we can run a script before any other libraries. When you run sudo -l and see this output do the following:
+
+
 ```bash
 #include <stdio.h>
 #include <sys/types.h>
@@ -19,7 +25,3 @@ void _init() {
 
 
 
-![image](https://user-images.githubusercontent.com/96658935/147622984-7193ceee-663b-4649-b16c-65016f201af4.png)
-
-
-This means we can run a script before any other libraries. When you run sudo -l and see this output do the following:
