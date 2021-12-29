@@ -8,6 +8,11 @@ These allow files to be executed with the permission level of the file owner or 
 ```bash
 find / -type f -perm -04000 -ls 2>/dev/null
 ```
+
+```bash
+
+find / -perm -u=s -type f 2>/dev/null
+```
 will list files that have SUID or SGID bits set
 
 ![image](https://user-images.githubusercontent.com/96658935/147518758-e5d7d0d5-bae0-4b39-9298-8c305507c6a9.png)
