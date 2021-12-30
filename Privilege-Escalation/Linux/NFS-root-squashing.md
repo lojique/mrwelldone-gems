@@ -36,3 +36,13 @@ gcc /tmp/1/x.c -o /tmp/1/x
 ```bash
 chmod +s /tmp/1/x
 ```
+
+
+![image](https://user-images.githubusercontent.com/96658935/147765264-d9b94d3c-65aa-4d5b-99fc-02e4cee6aa21.png)
+
+
+![image](https://user-images.githubusercontent.com/96658935/147765202-4dcfa7d1-5b1c-4668-ba97-b86abf62236b.png)
+
+
+
+
