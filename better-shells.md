@@ -8,12 +8,15 @@ python3 -c 'import pty; pty.spawn("/bin/bash")'
 
 www-data@remotehost$ ^Z
 
-Mrwelldone@htb[/htb]$ stty raw -echo
-Mrwelldone@htb[/htb]$ fg
+Mrwelldone@htb[/htb]$ stty raw -echo;fg
 
 [Enter]
 [Enter]
 www-data@remotehost$
+
+
+# In zsh, you need to put the stty raw -echo;fg on one line, or it will break.
+
 ```
 
 
