@@ -4,6 +4,18 @@ python -c 'import pty; pty.spawn("/bin/bash")'
 
 python3 -c 'import pty; pty.spawn("/bin/bash")' 
 ```
+```bash
+
+www-data@remotehost$ ^Z
+
+Mrwelldone@htb[/htb]$ stty raw -echo
+Mrwelldone@htb[/htb]$ fg
+
+[Enter]
+[Enter]
+www-data@remotehost$
+```
+
 
 ## Others
 ```bash
